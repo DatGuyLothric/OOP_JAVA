@@ -1,7 +1,7 @@
 Very simple http web server.
 Compile: 
-> gcc server.c -lrt -o server
+> gcc server1.c -o server
 Launch:
-> ./server [port]
+> ./server [port] [home page]
 Example:
-> ./server 8080
+> ./server 8080 index.html
